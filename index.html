@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cadastro de Cursos</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<header class="header">
+		<h1>Cadastro de Cursos</h1>
+		<h2>Cadastre seus cursos e tenha um controle dos seus estudos</h2>
+	</header>
+	<div class="form">
+		<form name="form1">
+			Nome:<input id="nome" type="text" name="nome" placeholder="Insira seu Nome"><br>
+			Instituto:<input id="instituto" type="text" name="instituto" placeholder="Insira o nome do instituto"><br>
+			Data inicio:<input id="dtinicio" type="date" name="dtinicio"><br>
+			Data final:<input id="dtfinal" type="date" name="dtfinal"><br>
+			Status:
+			<input id="inscrito" type="radio" name="inscrito" value="I">Inscrito
+			<input id="andamento" type="radio" name="andamento" value="A">Em Andamento
+			<input id="concluido" type="radio" name="concluido" value="C">Concluído<br>
+			<input type="button" name="button" value="Enviar" onclick="salvar()">
+			<input type="button" name="button2" value="Receber" onclick="mostrar()">
+		</form>
+	</div>
+	<footer class="rodape">
+		<p>Todos os direitos reservados &copy; 2017</p>
+	</footer>
+</body>
+</html>
